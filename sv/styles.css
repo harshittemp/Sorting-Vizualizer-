@@ -1,0 +1,43 @@
+.cotrollers {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px;
+  background: transparent;
+  display: flex;
+}
+
+.compares-container {
+  background: black;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  width: fit-content;
+  margin-left: 20px;
+  height: fit-content;
+}
+
+.cta {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #4ef18fa6;
+  outline: none;
+}
+.cta:hover {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
